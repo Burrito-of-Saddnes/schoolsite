@@ -1,0 +1,36 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 100px 20px 100px;
+    height: 90%;
+
+    .App__content {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media all and (max-width: 1125px) {
+    .App {
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        height: 100%;
+        overflow-y: hidden;
+
+        .App__header{
+            height: 75px
+        }
+
+        .App__content {
+            display: flex;
+            height: 100%;
+            flex-direction: row;
+        }
+    }
+
+    // ::-webkit-scrollbar { width: 0;}
+    .App::-webkit-scrollbar{
+        width: 0;
+    }
+}

@@ -1,0 +1,8 @@
+export enum RoutingStatus {
+    HOME = 'HOME',
+    FIELDSCHOOL = 'FIELDSCHOOL',
+    ONLINE = 'ONLINE',
+    FULLTIMECLASS = 'FULLTIMECLASS',
+    TOURNAMENT = 'TOURNAMENT',
+    ABOUT = 'ABOUT'
+}

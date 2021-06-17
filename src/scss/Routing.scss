@@ -1,0 +1,31 @@
+.Routing__content {
+    padding-bottom: 25px;
+    padding-top: 25px;
+    font-size: 1rem;
+    font-weight: 800;
+    outline: none;
+    position: relative;
+    color: black;
+
+    &.Routing__content_active {
+        padding-bottom: 25px;
+        padding-top: 25px;
+        font-size: 1rem;
+        font-weight: 800;
+        outline: none;
+        position: relative;
+        color: #6B95FF;
+    
+    }
+
+}
+
+.Routing__content:hover:before {
+    content: '';
+    position: absolute;
+    left: -35%;
+    top: 45%;
+    width: 30%;
+    height: 3px;
+    background-color: #6B95FF;
+}

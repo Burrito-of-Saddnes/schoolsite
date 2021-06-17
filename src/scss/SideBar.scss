@@ -1,0 +1,21 @@
+.SideBar {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 20%;
+    max-width: 300px;
+
+    .SideBar__copyrights {
+        // position: absolute;
+        padding-top: 60%;
+        margin-top: 100%;
+    }
+}
+
+@media all and (max-width: 1125px) {
+    .SideBar {
+        display: none;
+    }
+}
+
+

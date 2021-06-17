@@ -1,0 +1,60 @@
+.MiniMenuContent {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(180deg, #FFFFFF 0%, #99B6FF 100%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 100;
+
+    .MiniMenuContent_head {
+        display: flex;
+        width: 80%;
+        padding-left: 10%;
+        justify-content: space-between;
+        margin-top: 10px;
+
+
+        .MiniMenuContent__logowrapper {
+            border: 2px solid blue;
+            border-radius:20px;
+    
+            .MiniMenuContent__logo {
+                margin: 16.5px 25px 16.5px 25px;
+                font-size: 2em;
+                color: black;     
+            }
+        }
+
+        .MiniMenuContent_hide {
+            height: 50%;
+            margin-top: 20px;
+            font-size: 2em;
+            cursor: pointer;
+            display: table-cell;
+            color: #6B95FF;
+        }
+
+    }
+
+    .MiniMenuContent_main {
+        padding-left: 10%;
+        .MiniMenuContent__phonewrapper {
+            padding-top: 15%;
+            padding-bottom: 15%;
+            .MiniMenuContent__phone {
+                font-size: 2em;
+            }
+        }
+
+    }
+
+    .MiniMenuContent_foot {
+        padding-left: 10%;
+        padding-top: 30%;
+    }
+    
+}

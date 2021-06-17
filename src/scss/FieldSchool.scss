@@ -1,0 +1,46 @@
+.FieldSchool {
+    max-width: 1360px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-left: 5px;
+    
+    .FieldSchool__ButtonsWrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-bottom: 50px;
+        align-content: flex-start
+    }
+
+    .FieldSchool__Content {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2em;
+    }
+}
+@media all and (max-width: 1125px) {
+    .FieldSchool {
+        max-width: 1360px;
+        width: 86%;
+        padding-left: 7%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        
+        .FieldSchool__ButtonsWrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin-bottom: 25px;
+            margin-right: 10px;
+            align-content: flex-start
+        }
+    
+        .FieldSchool__Content {
+            width: 100%;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2em;
+        }
+    }
+}
